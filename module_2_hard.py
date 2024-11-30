@@ -12,7 +12,7 @@ def get_password(n):
                 pair_str1 = f"{i}{j}"
                 pair_str2 = f"{j}{i}"
 
-                if pair_str1 not in used_pairs and pair_str2 not in used_pairs:
+                if pair_str1 not in used_pairs:
                     password += pair_str1
                     used_pairs.add(pair_str1)
 
